@@ -1,2 +1,2 @@
 # codewars-haskell
-Solutions to [Codewars](https://www.codewars.com/) katas in Haskell
+Solutions to [Codewars](https://www.codewars.com/) katas(from kyu5 to kyu1) in Haskell
