@@ -2,10 +2,7 @@ import Data.Array
 
 balancedParens :: Int -> [String]
 balancedParens n = table ! (n, n)
-  where 
-    a :: Array Int Int
-    a = listArray (1, n) [1..n] 
-
+  where  
     table :: Array (Int, Int) [String]
     table = listArray ((0, 0), (n, n)) [f i j | i <- [0..n], j <- [0..n]]
 
