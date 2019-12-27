@@ -1,3 +1,4 @@
+-- https://stackoverflow.com/questions/141650/how-do-you-make-a-generic-memoize-function-in-haskell
 module FunctionEvaluator where
 
 import Data.Either
